@@ -1,0 +1,25 @@
+#端口
+server:
+  port: 8082
+
+#日志配置
+logging:
+  level:
+    ROOT: WARN
+    com.egao: ERROR
+    com.baomidou.mybatisplus: ERROR
+
+# json时间格式设置
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy/MM/dd HH:mm:ss
+
+  # 设置上传文件大小
+  servlet:
+    multipart.max-file-size: 100MB
+    multipart.max-request-size: 100MB
+
+# 项目生成器缓存位置
+gen:
+  cache: 0

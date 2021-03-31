@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.yyhn</groupId>
+    <artifactId>logistics</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>logistics</name>
+    <description>聚合服务</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>zz-car</module>
+        <module>zz-goods</module>
+        <module>zz-order</module>
+        <module>zz-plan</module>
+        <module>zz-ware</module>
+        <module>zz-common</module>
+        <module>zz-gateway</module>
+        <module>zz-generator</module>
+        <module>zz-security</module>
+    </modules>
+
+</project>
